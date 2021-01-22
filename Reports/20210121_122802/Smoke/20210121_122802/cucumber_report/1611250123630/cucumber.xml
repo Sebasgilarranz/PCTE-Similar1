@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.894023">
+<testcase classname="Delete Contact" name="Delete previously created contact" time="7.894023">
+<system-out><![CDATA[Given I am on contactology..................................................passed
+When I login to contactology................................................passed
+And I delete contact previously created.....................................passed
+Then I should no longer see contact.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

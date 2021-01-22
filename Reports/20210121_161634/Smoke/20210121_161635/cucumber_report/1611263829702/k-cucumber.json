@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "fe12ccbb-c7f7-42ca-825c-caa94a296912",
+        "line": 3,
+        "name": "Add Contact",
+        "description": "",
+        "id": "addcontact;add-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2341445534,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "a4f6f7f5-54d4-4eb3-89cb-ebbc0cd3f895"
+          },
+          {
+            "result": {
+              "duration": 1587901928,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "396e2c85-fe68-464a-9da8-f1aa442d0528"
+          },
+          {
+            "result": {
+              "duration": 3949166187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add contact",
+            "match": {
+              "location": "Add_Delete_Contact.addContact()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "07147a37-645b-4db9-b385-7bf9e29a8a2f"
+          },
+          {
+            "result": {
+              "duration": 763092566,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see contact on contactlist",
+            "match": {
+              "location": "Add_Delete_Contact.seeContact()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "7af2556c-e7a5-4076-b6e2-304b2af55ea7"
+          }
+        ]
+      }
+    ],
+    "name": "AddContact",
+    "description": "",
+    "id": "addcontact",
+    "keyword": "Feature",
+    "uri": "/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Include/features/Add_Contact/AddContact.feature",
+    "tags": []
+  }
+]

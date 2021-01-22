@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="46.296" tests="4" failures="0" skips="0" errors="0">
+   <testsuite name="Smoke" tests="4" failures="0" errors="0" time="46.296" skips="0" timestamp="2021-01-21 16:23:04" hostname="sebastiangilarranz - sebastians-mbp" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300"/>
+         <property name="logFiles" value="/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sebastiangilarranz - sebastians-mbp"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 88.0.4324.96"/>
+         <property name="hostAddress" value="192.168.1.239"/>
+         <property name="sessionId" value="a40ccce838af931a2f3e865521b380e0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Register" time="10.227" classname="Test Cases/Register" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:23:05 - [TEST_CASE][PASSED] - Test Cases/Register: Test Cases/Register
+
+2021-01-21 16:23:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Register/Register-success.feature"): Feature file: 'Include/features/Register/Register-success.feature' was passed
+
+2021-01-21 16:23:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Register/Register-success.feature' and extract report to folder: '/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/cucumber_report/1611264185906'...
+
+2021-01-21 16:23:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Register: SCENARIO Register
+
+2021-01-21 16:23:06 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:10 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:10 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:10 - [TEST_STEP][PASSED] - I register to contactology: I register to contactology
+
+2021-01-21 16:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/a_Create Account' is clicked on
+
+2021-01-21 16:23:12 - [MESSAGE][PASSED] - Text 'User004' is set on object 'Object Repository/Page_Contactology - register/input_First Name_firstname'
+
+2021-01-21 16:23:12 - [MESSAGE][PASSED] - Text 'User004' is set on object 'Object Repository/Page_Contactology - register/input_Last Name_lastname'
+
+2021-01-21 16:23:13 - [MESSAGE][PASSED] - Text 'User004' is set on object 'Object Repository/Page_Contactology - register/input_User Name_username'
+
+2021-01-21 16:23:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - register/input_Password_pass'
+
+2021-01-21 16:23:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - register/input_Confirm Password_confpass'
+
+2021-01-21 16:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - register/button_Register' is clicked on
+
+2021-01-21 16:23:14 - [MESSAGE][PASSED] - I register to contactology
+
+2021-01-21 16:23:14 - [TEST_STEP][PASSED] - I should have access to dashboard: I should have access to dashboard
+
+2021-01-21 16:23:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Contactology - main/h2_Contacts' are matched.
+
+2021-01-21 16:23:15 - [MESSAGE][PASSED] - I should have access to dashboard
+
+2021-01-21 16:23:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/Register/Register-success.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="11.872" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:23:15 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2021-01-21 16:23:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/login/Login-success.feature"): Feature file: 'Include/features/login/Login-success.feature' was passed
+
+2021-01-21 16:23:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/login/Login-success.feature' and extract report to folder: '/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/cucumber_report/1611264195838'...
+
+2021-01-21 16:23:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login: SCENARIO Login
+
+2021-01-21 16:23:15 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-21 16:23:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:18 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:18 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:18 - [TEST_STEP][PASSED] - I login to contactology: I login to contactology
+
+2021-01-21 16:23:19 - [MESSAGE][PASSED] - Text 'User001' is set on object 'Object Repository/Page_Contactology - login/input_User Name_username'
+
+2021-01-21 16:23:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - login/input_Password_pass'
+
+2021-01-21 16:23:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/button_Login' is clicked on
+
+2021-01-21 16:23:20 - [MESSAGE][PASSED] - I login to contactology
+
+2021-01-21 16:23:20 - [TEST_STEP][PASSED] - I should have access to dashboard: I should have access to dashboard
+
+2021-01-21 16:23:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Contactology - main/h2_Contacts' are matched.
+
+2021-01-21 16:23:21 - [MESSAGE][PASSED] - I should have access to dashboard
+
+2021-01-21 16:23:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Logout: SCENARIO Logout
+
+2021-01-21 16:23:21 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-21 16:23:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:23 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:23 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:23 - [TEST_STEP][PASSED] - I login to contactology: I login to contactology
+
+2021-01-21 16:23:24 - [MESSAGE][PASSED] - Text 'User001' is set on object 'Object Repository/Page_Contactology - login/input_User Name_username'
+
+2021-01-21 16:23:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - login/input_Password_pass'
+
+2021-01-21 16:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/button_Login' is clicked on
+
+2021-01-21 16:23:25 - [MESSAGE][PASSED] - I login to contactology
+
+2021-01-21 16:23:25 - [TEST_STEP][PASSED] - I logout of contactology: I logout of contactology
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - main/Page_Contactology - main/a_logout' is clicked on
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - I logout of contactology
+
+2021-01-21 16:23:27 - [TEST_STEP][PASSED] - I should no longer have access to dashboard: I should no longer have access to dashboard
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Contactology - main/h2_Contacts' located by 'By.xpath: //section[@id='Contacts']/div/h2' is not present after '5' second(s)
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - I should no longer have access to dashboard
+
+2021-01-21 16:23:27 - [MESSAGE][PASSED] - Feature file: 'Include/features/login/Login-success.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Contact_Delete Contact" time="15.854" classname="Test Cases/Add Contact_Delete Contact" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:23:27 - [TEST_CASE][PASSED] - Test Cases/Add Contact_Delete Contact: Test Cases/Add Contact_Delete Contact
+
+2021-01-21 16:23:27 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add_Contact/AddContact.feature"): Feature file: 'Include/features/Add_Contact/AddContact.feature' was passed
+
+2021-01-21 16:23:27 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add_Contact/AddContact.feature' and extract report to folder: '/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/cucumber_report/1611264207821'...
+
+2021-01-21 16:23:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add Contact: SCENARIO Add Contact
+
+2021-01-21 16:23:27 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:29 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:29 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:29 - [TEST_STEP][PASSED] - I login to contactology: I login to contactology
+
+2021-01-21 16:23:30 - [MESSAGE][PASSED] - Text 'User001' is set on object 'Object Repository/Page_Contactology - login/input_User Name_username'
+
+2021-01-21 16:23:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - login/input_Password_pass'
+
+2021-01-21 16:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/button_Login' is clicked on
+
+2021-01-21 16:23:31 - [MESSAGE][PASSED] - I login to contactology
+
+2021-01-21 16:23:31 - [TEST_STEP][PASSED] - I add contact: I add contact
+
+2021-01-21 16:23:33 - [MESSAGE][PASSED] - Text 'Contact004' is set on object 'Object Repository/Page_Contactology - main/input_Name_contactName'
+
+2021-01-21 16:23:33 - [MESSAGE][PASSED] - Text '1112223333' is set on object 'Object Repository/Page_Contactology - main/input_Phone Number_contactNumber'
+
+2021-01-21 16:23:34 - [MESSAGE][PASSED] - Text 'Contact004@test.com' is set on object 'Object Repository/Page_Contactology - main/input_Email_contactEmail'
+
+2021-01-21 16:23:35 - [MESSAGE][PASSED] - Text '123 Test ST Orlando FL 32826' is set on object 'Object Repository/Page_Contactology - main/input_Address_contactAddress'
+
+2021-01-21 16:23:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - main/button_Create Contact' is clicked on
+
+2021-01-21 16:23:35 - [MESSAGE][PASSED] - I add contact
+
+2021-01-21 16:23:35 - [TEST_STEP][PASSED] - I should see contact on contactlist: I should see contact on contactlist
+
+2021-01-21 16:23:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contactology - main/input_Delete_name3' is present
+
+2021-01-21 16:23:36 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:23:36 - [MESSAGE][PASSED] - I should see contact on contactlist
+
+2021-01-21 16:23:36 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add_Contact/AddContact.feature' was passed
+
+2021-01-21 16:23:36 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add_Contact/DeleteContact.feature"): Feature file: 'Include/features/Add_Contact/DeleteContact.feature' was passed
+
+2021-01-21 16:23:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add_Contact/DeleteContact.feature' and extract report to folder: '/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/cucumber_report/1611264216664'...
+
+2021-01-21 16:23:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete previously created contact: SCENARIO Delete previously created contact
+
+2021-01-21 16:23:36 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:39 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:39 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:39 - [TEST_STEP][PASSED] - I login to contactology: I login to contactology
+
+2021-01-21 16:23:40 - [MESSAGE][PASSED] - Text 'User001' is set on object 'Object Repository/Page_Contactology - login/input_User Name_username'
+
+2021-01-21 16:23:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - login/input_Password_pass'
+
+2021-01-21 16:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/button_Login' is clicked on
+
+2021-01-21 16:23:40 - [MESSAGE][PASSED] - I login to contactology
+
+2021-01-21 16:23:40 - [TEST_STEP][PASSED] - I delete contact previously created: I delete contact previously created
+
+2021-01-21 16:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - main/button_Delete' is clicked on
+
+2021-01-21 16:23:42 - [MESSAGE][PASSED] - I delete contact previously created
+
+2021-01-21 16:23:42 - [TEST_STEP][PASSED] - I should no longer see contact: I should no longer see contact
+
+2021-01-21 16:23:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Contactology - main/input_Delete_name3' located by 'By.xpath: //input[@id='name3']' is not present after '5' second(s)
+
+2021-01-21 16:23:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:23:43 - [MESSAGE][PASSED] - I should no longer see contact
+
+2021-01-21 16:23:43 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add_Contact/DeleteContact.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Existing Contacts" time="7.056" classname="Test Cases/Verify Existing Contacts" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:23:43 - [TEST_CASE][PASSED] - Test Cases/Verify Existing Contacts: Test Cases/Verify Existing Contacts
+
+2021-01-21 16:23:43 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/VerifyContacts/VerifyContacts.feature"): Feature file: 'Include/features/VerifyContacts/VerifyContacts.feature' was passed
+
+2021-01-21 16:23:43 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/VerifyContacts/VerifyContacts.feature' and extract report to folder: '/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Reports/20210121_162300/Smoke/20210121_162300/cucumber_report/1611264223710'...
+
+2021-01-21 16:23:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Verify Contacts: SCENARIO Verify Contacts
+
+2021-01-21 16:23:43 - [TEST_STEP][PASSED] - I am on contactology: I am on contactology
+
+2021-01-21 16:23:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-21 16:23:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:23:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:23:46 - [MESSAGE][PASSED] - Navigate to 'https://contactology.pythonanywhere.com/' successfully
+
+2021-01-21 16:23:46 - [MESSAGE][PASSED] - I am on contactology
+
+2021-01-21 16:23:46 - [TEST_STEP][PASSED] - I login to contactology: I login to contactology
+
+2021-01-21 16:23:47 - [MESSAGE][PASSED] - Text 'User001' is set on object 'Object Repository/Page_Contactology - login/input_User Name_username'
+
+2021-01-21 16:23:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Contactology - login/input_Password_pass'
+
+2021-01-21 16:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Contactology - login/button_Login' is clicked on
+
+2021-01-21 16:23:48 - [MESSAGE][PASSED] - I login to contactology
+
+2021-01-21 16:23:48 - [TEST_STEP][PASSED] - I should see existing contacts: I should see existing contacts
+
+2021-01-21 16:23:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contactology - main/input_Search_name0' is present
+
+2021-01-21 16:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contactology - main/input_Delete_name1' is present
+
+2021-01-21 16:23:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Contactology - main/input_Delete_name2' is present
+
+2021-01-21 16:23:50 - [MESSAGE][PASSED] - I should see existing contacts
+
+2021-01-21 16:23:50 - [MESSAGE][PASSED] - Feature file: 'Include/features/VerifyContacts/VerifyContacts.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 16:23:04 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Verify Existing Contacts]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Delete previously created contact",
+        "description": "",
+        "id": "delete-contact;delete-previously-created-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2517790445,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1425550526,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2088963825,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I delete contact previously created",
+            "match": {
+              "location": "Add_Delete_Contact.deleteContact()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1850736936,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should no longer see contact",
+            "match": {
+              "location": "Add_Delete_Contact.verifyNoContact()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Contact",
+    "description": "",
+    "id": "delete-contact",
+    "keyword": "Feature",
+    "uri": "/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Include/features/Add_Contact/DeleteContact.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Contacts",
+        "description": "",
+        "id": "verifycontacts-using-user001;verify-contacts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2587738426,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1687345438,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2463918369,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see existing contacts",
+            "match": {
+              "location": "VerifyContacts.verifyContacts()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "VerifyContacts using User001",
+    "description": "",
+    "id": "verifycontacts-using-user001",
+    "keyword": "Feature",
+    "uri": "/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Include/features/VerifyContacts/VerifyContacts.feature",
+    "tags": []
+  }
+]

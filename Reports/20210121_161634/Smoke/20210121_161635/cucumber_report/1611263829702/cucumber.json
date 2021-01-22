@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add Contact",
+        "description": "",
+        "id": "addcontact;add-contact",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2341445534,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1587901928,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3949166187,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add contact",
+            "match": {
+              "location": "Add_Delete_Contact.addContact()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763092566,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see contact on contactlist",
+            "match": {
+              "location": "Add_Delete_Contact.seeContact()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "AddContact",
+    "description": "",
+    "id": "addcontact",
+    "keyword": "Feature",
+    "uri": "/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Include/features/Add_Contact/AddContact.feature",
+    "tags": []
+  }
+]

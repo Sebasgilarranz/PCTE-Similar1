@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.214731">
+<testcase classname="Register to Contactology" name="Register" time="9.214731">
+<system-out><![CDATA[Given I am on contactology..................................................passed
+When I register to contactology.............................................passed
+Then I should have access to dashboard......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

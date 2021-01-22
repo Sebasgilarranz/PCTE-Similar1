@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,Chrome 88.0.4324.96,,,2021-01-21 16:23:04,2021-01-21 16:23:50,45.903s,PASSED
+,,,,,,,
+Test Cases/Register,Chrome 88.0.4324.96,,,2021-01-21 16:23:05,2021-01-21 16:23:15,10.227s,PASSED
+"runFeatureFile(""Include/features/Register/Register-success.feature"")",Chrome 88.0.4324.96,,,2021-01-21 16:23:05,2021-01-21 16:23:15,9.840s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 88.0.4324.96,,,2021-01-21 16:23:15,2021-01-21 16:23:27,11.872s,PASSED
+"runFeatureFile(""Include/features/login/Login-success.feature"")",Chrome 88.0.4324.96,,,2021-01-21 16:23:15,2021-01-21 16:23:27,11.749s,PASSED
+,,,,,,,
+Test Cases/Add Contact_Delete Contact,Chrome 88.0.4324.96,,,2021-01-21 16:23:27,2021-01-21 16:23:43,15.854s,PASSED
+"runFeatureFile(""Include/features/Add_Contact/AddContact.feature"")",Chrome 88.0.4324.96,,,2021-01-21 16:23:27,2021-01-21 16:23:36,8.843s,PASSED
+"runFeatureFile(""Include/features/Add_Contact/DeleteContact.feature"")",Chrome 88.0.4324.96,,,2021-01-21 16:23:36,2021-01-21 16:23:43,6.783s,PASSED
+,,,,,,,
+Test Cases/Verify Existing Contacts,Chrome 88.0.4324.96,,,2021-01-21 16:23:43,2021-01-21 16:23:50,7.056s,PASSED
+"runFeatureFile(""Include/features/VerifyContacts/VerifyContacts.feature"")",Chrome 88.0.4324.96,,,2021-01-21 16:23:43,2021-01-21 16:23:50,6.797s,PASSED

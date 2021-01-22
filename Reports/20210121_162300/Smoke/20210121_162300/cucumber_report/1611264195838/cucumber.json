@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "id": "login-to-contactology;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2477809572,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1716267513,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1186828139,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should have access to dashboard",
+            "match": {
+              "location": "Login.confirmDashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Logout",
+        "description": "",
+        "id": "login-to-contactology;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2342590590,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on contactology",
+            "match": {
+              "location": "Login.goToWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1697191920,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I login to contactology",
+            "match": {
+              "location": "Login.loginToWebsite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1686741676,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I logout of contactology",
+            "match": {
+              "location": "Login.logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 566914893,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should no longer have access to dashboard",
+            "match": {
+              "location": "Login.confirmLogout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to Contactology",
+    "description": "",
+    "id": "login-to-contactology",
+    "keyword": "Feature",
+    "uri": "/Users/sebastiangilarranz/Katalon Studio/PCTE_Similar/Include/features/login/Login-success.feature",
+    "tags": []
+  }
+]
